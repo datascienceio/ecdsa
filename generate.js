@@ -15,7 +15,7 @@ function generateKeyPair() {
   };
 }
 
-console.log("\n🔐 Generated Test Accounts:\n");
+console.log("\nGenerated Test Accounts:\n");
 console.log("=" .repeat(80));
 
 for (let i = 1; i <= 3; i++) {
@@ -27,4 +27,4 @@ for (let i = 1; i <= 3; i++) {
 }
 
 console.log("\n" + "=".repeat(80));
-console.log("\n💡 Use these private keys in the app to sign transactions!\n");
+console.log("\nUse these private keys in the app to sign transactions!\n");
