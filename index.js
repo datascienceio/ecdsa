@@ -84,7 +84,7 @@ app.post("/send", (req, res) => {
 
     res.send({ 
       balance: balances[sender], 
-      message: "Transfer successful! 🔐",
+      message: "Transfer successful!",
       transactionHash: txHash,
       verified: true
     });
